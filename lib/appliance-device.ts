@@ -374,14 +374,6 @@ const CAPABILITY_MAP: Record<string, CapabilityMapEntry> = {
     capability: "homeconnect_microwave_power",
     decode: decodeMicrowavePower,
   },
-  "Cooking.Oven.Status.Cavity.001.ProgramName": {
-    capability: "homeconnect_oven_program_name",
-    decode: decodeLastSegment,
-  },
-  "BSH.Common.Option.ProgramName": {
-    capability: "homeconnect_oven_program_name",
-    decode: decodeLastSegment,
-  },
   // ===== Dishwasher (Dishcare.Dishwasher) ==================================
   "Dishcare.Dishwasher.Status.ProgramPhase": {
     capability: "homeconnect_program_phase",
