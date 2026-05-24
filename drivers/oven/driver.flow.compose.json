@@ -4,32 +4,37 @@
       "id": "oven_program_finished",
       "title": {
         "en": "A program finished",
-        "nl": "Een programma is klaar"
+        "nl": "Een programma is klaar",
+        "de": "Ein Programm ist fertig"
       },
       "hint": {
         "en": "Triggers when the oven's operation state becomes Finished.",
-        "nl": "Wordt geactiveerd wanneer de bedrijfstoestand Klaar wordt."
+        "nl": "Wordt geactiveerd wanneer de bedrijfstoestand Klaar wordt.",
+        "de": "Wird ausgelöst, wenn der Betriebszustand des Backofens Fertig wird."
       }
     },
     {
       "id": "oven_program_started",
       "title": {
         "en": "A program started",
-        "nl": "Een programma is gestart"
+        "nl": "Een programma is gestart",
+        "de": "Ein Programm wurde gestartet"
       }
     },
     {
       "id": "oven_program_aborted",
       "title": {
         "en": "A program was aborted",
-        "nl": "Een programma is afgebroken"
+        "nl": "Een programma is afgebroken",
+        "de": "Ein Programm wurde abgebrochen"
       }
     },
     {
       "id": "oven_door_changed",
       "title": {
         "en": "The door state changed",
-        "nl": "De deurstatus is veranderd"
+        "nl": "De deurstatus is veranderd",
+        "de": "Der Türstatus wurde geändert"
       },
       "tokens": [
         {
@@ -37,11 +42,13 @@
           "type": "string",
           "title": {
             "en": "Door state",
-            "nl": "Deurstatus"
+            "nl": "Deurstatus",
+            "de": "Türstatus"
           },
           "example": {
             "en": "Open",
-            "nl": "Open"
+            "nl": "Open",
+            "de": "Offen"
           }
         }
       ]
@@ -50,21 +57,24 @@
       "id": "oven_door_opened",
       "title": {
         "en": "The door was opened",
-        "nl": "De deur is geopend"
+        "nl": "De deur is geopend",
+        "de": "Die Tür wurde geöffnet"
       }
     },
     {
       "id": "oven_door_closed",
       "title": {
         "en": "The door was closed",
-        "nl": "De deur is gesloten"
+        "nl": "De deur is gesloten",
+        "de": "Die Tür wurde geschlossen"
       }
     },
     {
       "id": "oven_operation_state_changed",
       "title": {
         "en": "The operation state changed",
-        "nl": "De bedrijfstoestand is veranderd"
+        "nl": "De bedrijfstoestand is veranderd",
+        "de": "Der Betriebszustand wurde geändert"
       },
       "tokens": [
         {
@@ -72,11 +82,13 @@
           "type": "string",
           "title": {
             "en": "Operation state",
-            "nl": "Bedrijfstoestand"
+            "nl": "Bedrijfstoestand",
+            "de": "Betriebszustand"
           },
           "example": {
             "en": "Run",
-            "nl": "Run"
+            "nl": "Run",
+            "de": "Run"
           }
         }
       ]
@@ -85,7 +97,8 @@
       "id": "oven_program_progress_changed",
       "title": {
         "en": "The program progress changed",
-        "nl": "De programmavoortgang is veranderd"
+        "nl": "De programmavoortgang is veranderd",
+        "de": "Der Programmfortschritt wurde geändert"
       },
       "tokens": [
         {
@@ -93,7 +106,8 @@
           "type": "number",
           "title": {
             "en": "Progress (%)",
-            "nl": "Voortgang (%)"
+            "nl": "Voortgang (%)",
+            "de": "Fortschritt (%)"
           },
           "example": 50
         }
@@ -103,7 +117,8 @@
       "id": "oven_remaining_time_changed",
       "title": {
         "en": "Remaining time changed",
-        "nl": "Resterende tijd is veranderd"
+        "nl": "Resterende tijd is veranderd",
+        "de": "Restzeit wurde geändert"
       },
       "tokens": [
         {
@@ -111,7 +126,8 @@
           "type": "number",
           "title": {
             "en": "Minutes",
-            "nl": "Minuten"
+            "nl": "Minuten",
+            "de": "Minuten"
           },
           "example": 25
         }
@@ -121,7 +137,8 @@
       "id": "oven_elapsed_time_changed",
       "title": {
         "en": "Elapsed time changed",
-        "nl": "Verstreken tijd is veranderd"
+        "nl": "Verstreken tijd is veranderd",
+        "de": "Verstrichene Zeit wurde geändert"
       },
       "tokens": [
         {
@@ -129,7 +146,8 @@
           "type": "number",
           "title": {
             "en": "Minutes",
-            "nl": "Minuten"
+            "nl": "Minuten",
+            "de": "Minuten"
           },
           "example": 5
         }
@@ -139,7 +157,8 @@
       "id": "oven_remote_start_allowed_changed",
       "title": {
         "en": "Remote start allowed changed",
-        "nl": "Op afstand starten toegestaan is veranderd"
+        "nl": "Op afstand starten toegestaan is veranderd",
+        "de": "Fernstart erlaubt wurde geändert"
       },
       "tokens": [
         {
@@ -147,11 +166,13 @@
           "type": "boolean",
           "title": {
             "en": "Allowed",
-            "nl": "Toegestaan"
+            "nl": "Toegestaan",
+            "de": "Erlaubt"
           },
           "example": {
             "en": "true",
-            "nl": "true"
+            "nl": "true",
+            "de": "true"
           }
         }
       ]
@@ -160,7 +181,8 @@
       "id": "oven_remote_control_active_changed",
       "title": {
         "en": "Remote control active changed",
-        "nl": "Bediening op afstand actief is veranderd"
+        "nl": "Bediening op afstand actief is veranderd",
+        "de": "Fernsteuerung aktiv wurde geändert"
       },
       "tokens": [
         {
@@ -168,11 +190,13 @@
           "type": "boolean",
           "title": {
             "en": "Active",
-            "nl": "Actief"
+            "nl": "Actief",
+            "de": "Aktiv"
           },
           "example": {
             "en": "true",
-            "nl": "true"
+            "nl": "true",
+            "de": "true"
           }
         }
       ]
@@ -181,7 +205,8 @@
       "id": "oven_local_control_changed",
       "title": {
         "en": "Local control changed",
-        "nl": "Lokale bediening is veranderd"
+        "nl": "Lokale bediening is veranderd",
+        "de": "Lokale Bedienung wurde geändert"
       },
       "tokens": [
         {
@@ -189,11 +214,13 @@
           "type": "boolean",
           "title": {
             "en": "Active",
-            "nl": "Actief"
+            "nl": "Actief",
+            "de": "Aktiv"
           },
           "example": {
             "en": "true",
-            "nl": "true"
+            "nl": "true",
+            "de": "true"
           }
         }
       ]
@@ -202,7 +229,8 @@
       "id": "oven_child_lock_changed",
       "title": {
         "en": "Child lock changed",
-        "nl": "Kinderslot is veranderd"
+        "nl": "Kinderslot is veranderd",
+        "de": "Kindersicherung wurde geändert"
       },
       "tokens": [
         {
@@ -210,11 +238,13 @@
           "type": "boolean",
           "title": {
             "en": "Enabled",
-            "nl": "Ingeschakeld"
+            "nl": "Ingeschakeld",
+            "de": "Aktiviert"
           },
           "example": {
             "en": "true",
-            "nl": "true"
+            "nl": "true",
+            "de": "true"
           }
         }
       ]
@@ -223,7 +253,8 @@
       "id": "oven_error_occurred",
       "title": {
         "en": "An error occurred",
-        "nl": "Er is een fout opgetreden"
+        "nl": "Er is een fout opgetreden",
+        "de": "Ein Fehler ist aufgetreten"
       },
       "tokens": [
         {
@@ -231,11 +262,13 @@
           "type": "string",
           "title": {
             "en": "Error code",
-            "nl": "Foutcode"
+            "nl": "Foutcode",
+            "de": "Fehlercode"
           },
           "example": {
             "en": "InternalError",
-            "nl": "InternalError"
+            "nl": "InternalError",
+            "de": "InternalError"
           }
         }
       ]
@@ -244,28 +277,32 @@
       "id": "oven_aqua_stop_occurred",
       "title": {
         "en": "AquaStop occurred",
-        "nl": "AquaStop is geactiveerd"
+        "nl": "AquaStop is geactiveerd",
+        "de": "AquaStop wurde ausgelöst"
       }
     },
     {
       "id": "oven_low_water_pressure",
       "title": {
         "en": "Low water pressure",
-        "nl": "Lage waterdruk"
+        "nl": "Lage waterdruk",
+        "de": "Niedriger Wasserdruck"
       }
     },
     {
       "id": "oven_software_update_available",
       "title": {
         "en": "A software update is available",
-        "nl": "Er is een software-update beschikbaar"
+        "nl": "Er is een software-update beschikbaar",
+        "de": "Ein Software-Update ist verfügbar"
       }
     },
     {
       "id": "oven_preheat_finished",
       "title": {
         "en": "Preheat finished",
-        "nl": "Voorverwarmen klaar"
+        "nl": "Voorverwarmen klaar",
+        "de": "Vorheizen abgeschlossen"
       },
       "tokens": [
         {
@@ -273,11 +310,13 @@
           "type": "string",
           "title": {
             "en": "Preheat mode",
-            "nl": "Voorverwarmingsmodus"
+            "nl": "Voorverwarmingsmodus",
+            "de": "Vorheizmodus"
           },
           "example": {
             "en": "regular",
-            "nl": "regular"
+            "nl": "regular",
+            "de": "regular"
           }
         }
       ]
@@ -286,21 +325,24 @@
       "id": "oven_alarm_clock_elapsed",
       "title": {
         "en": "Kitchen timer elapsed",
-        "nl": "Kookwekker afgelopen"
+        "nl": "Kookwekker afgelopen",
+        "de": "Kurzzeitwecker abgelaufen"
       }
     },
     {
       "id": "oven_meat_probe_temp_reached",
       "title": {
         "en": "Meat probe target reached",
-        "nl": "Vleesthermometer-streefwaarde bereikt"
+        "nl": "Vleesthermometer-streefwaarde bereikt",
+        "de": "Zieltemperatur des Bratenthermometers erreicht"
       }
     },
     {
       "id": "oven_meat_probe_attention",
       "title": {
         "en": "Meat probe needs attention",
-        "nl": "Vleesthermometer vereist aandacht"
+        "nl": "Vleesthermometer vereist aandacht",
+        "de": "Bratenthermometer erfordert Aufmerksamkeit"
       },
       "tokens": [
         {
@@ -308,11 +350,13 @@
           "type": "string",
           "title": {
             "en": "Reason",
-            "nl": "Reden"
+            "nl": "Reden",
+            "de": "Grund"
           },
           "example": {
             "en": "necessary",
-            "nl": "necessary"
+            "nl": "necessary",
+            "de": "necessary"
           }
         }
       ]
@@ -321,7 +365,8 @@
       "id": "oven_insert_food",
       "title": {
         "en": "Insert food",
-        "nl": "Voeg etenswaren toe"
+        "nl": "Voeg etenswaren toe",
+        "de": "Lebensmittel einlegen"
       },
       "tokens": [
         {
@@ -329,11 +374,13 @@
           "type": "string",
           "title": {
             "en": "When",
-            "nl": "Wanneer"
+            "nl": "Wanneer",
+            "de": "Wann"
           },
           "example": {
             "en": "now",
-            "nl": "now"
+            "nl": "now",
+            "de": "now"
           }
         }
       ]
@@ -342,7 +389,8 @@
       "id": "oven_turn_food",
       "title": {
         "en": "Turn food",
-        "nl": "Draai etenswaren om"
+        "nl": "Draai etenswaren om",
+        "de": "Lebensmittel wenden"
       },
       "tokens": [
         {
@@ -350,11 +398,13 @@
           "type": "string",
           "title": {
             "en": "When",
-            "nl": "Wanneer"
+            "nl": "Wanneer",
+            "de": "Wann"
           },
           "example": {
             "en": "now",
-            "nl": "now"
+            "nl": "now",
+            "de": "now"
           }
         }
       ]
@@ -363,7 +413,8 @@
       "id": "oven_door_attention",
       "title": {
         "en": "Door needs attention",
-        "nl": "Deur vereist aandacht"
+        "nl": "Deur vereist aandacht",
+        "de": "Tür erfordert Aufmerksamkeit"
       },
       "tokens": [
         {
@@ -371,11 +422,13 @@
           "type": "string",
           "title": {
             "en": "Reason",
-            "nl": "Reden"
+            "nl": "Reden",
+            "de": "Grund"
           },
           "example": {
             "en": "open",
-            "nl": "open"
+            "nl": "open",
+            "de": "open"
           }
         }
       ]
@@ -384,42 +437,48 @@
       "id": "oven_cavity_temp_too_high",
       "title": {
         "en": "Cavity temperature too high",
-        "nl": "Ovenruimte te warm"
+        "nl": "Ovenruimte te warm",
+        "de": "Garraumtemperatur zu hoch"
       }
     },
     {
       "id": "oven_easy_clean_required",
       "title": {
         "en": "EasyClean required",
-        "nl": "EasyClean vereist"
+        "nl": "EasyClean vereist",
+        "de": "EasyClean erforderlich"
       }
     },
     {
       "id": "oven_pyrolysis_remove_tank",
       "title": {
         "en": "Remove pyrolysis tank",
-        "nl": "Verwijder pyrolyse-bakje"
+        "nl": "Verwijder pyrolyse-bakje",
+        "de": "Pyrolysebehälter entfernen"
       }
     },
     {
       "id": "oven_subsequent_cooking_request",
       "title": {
         "en": "Subsequent cooking suggested",
-        "nl": "Nakookmodus voorgesteld"
+        "nl": "Nakookmodus voorgesteld",
+        "de": "Nachgaren vorgeschlagen"
       }
     },
     {
       "id": "oven_operating_time_limit_reached",
       "title": {
         "en": "Operating time limit reached",
-        "nl": "Maximale bedrijfsduur bereikt"
+        "nl": "Maximale bedrijfsduur bereikt",
+        "de": "Maximale Betriebsdauer erreicht"
       }
     },
     {
       "id": "oven_cooling_lock_active",
       "title": {
         "en": "Door locked while cooling",
-        "nl": "Deur vergrendeld tijdens afkoelen"
+        "nl": "Deur vergrendeld tijdens afkoelen",
+        "de": "Tür während des Abkühlens verriegelt"
       }
     }
   ],
@@ -428,88 +487,101 @@
       "id": "oven_is_running",
       "title": {
         "en": "!{{Is|Is not}} running",
-        "nl": "!{{Is|Is niet}} bezig"
+        "nl": "!{{Is|Is niet}} bezig",
+        "de": "!{{Läuft|Läuft nicht}}"
       }
     },
     {
       "id": "oven_is_finished",
       "title": {
         "en": "!{{Is|Is not}} finished",
-        "nl": "!{{Is|Is niet}} klaar"
+        "nl": "!{{Is|Is niet}} klaar",
+        "de": "!{{Ist|Ist nicht}} fertig"
       }
     },
     {
       "id": "oven_is_paused",
       "title": {
         "en": "!{{Is|Is not}} paused",
-        "nl": "!{{Is|Is niet}} gepauzeerd"
+        "nl": "!{{Is|Is niet}} gepauzeerd",
+        "de": "!{{Ist|Ist nicht}} pausiert"
       }
     },
     {
       "id": "oven_is_inactive",
       "title": {
         "en": "!{{Is|Is not}} idle",
-        "nl": "!{{Is|Is niet}} inactief"
+        "nl": "!{{Is|Is niet}} inactief",
+        "de": "!{{Ist|Ist nicht}} inaktiv"
       }
     },
     {
       "id": "oven_is_in_delayed_start",
       "title": {
         "en": "Delayed start !{{is|is not}} active",
-        "nl": "Uitgestelde start !{{is|is niet}} actief"
+        "nl": "Uitgestelde start !{{is|is niet}} actief",
+        "de": "Startzeitvorwahl !{{ist|ist nicht}} aktiv"
       }
     },
     {
       "id": "oven_has_error",
       "title": {
         "en": "There !{{is|is not}} an error",
-        "nl": "Er !{{is|is niet}} een fout"
+        "nl": "Er !{{is|is niet}} een fout",
+        "de": "Es !{{liegt|liegt kein}} Fehler vor"
       }
     },
     {
       "id": "oven_door_is_open",
       "title": {
         "en": "The door !{{is|is not}} open",
-        "nl": "De deur !{{is|is niet}} open"
+        "nl": "De deur !{{is|is niet}} open",
+        "de": "Die Tür !{{ist|ist nicht}} offen"
       }
     },
     {
       "id": "oven_remote_start_allowed",
       "title": {
         "en": "Remote start !{{is|is not}} allowed",
-        "nl": "Op afstand starten !{{is|is niet}} toegestaan"
+        "nl": "Op afstand starten !{{is|is niet}} toegestaan",
+        "de": "Fernstart !{{ist|ist nicht}} erlaubt"
       }
     },
     {
       "id": "oven_remote_control_is_active",
       "title": {
         "en": "Remote control !{{is|is not}} active",
-        "nl": "Bediening op afstand !{{is|is niet}} actief"
+        "nl": "Bediening op afstand !{{is|is niet}} actief",
+        "de": "Fernsteuerung !{{ist|ist nicht}} aktiv"
       }
     },
     {
       "id": "oven_local_control_is_active",
       "title": {
         "en": "Local control !{{is|is not}} active",
-        "nl": "Lokale bediening !{{is|is niet}} actief"
+        "nl": "Lokale bediening !{{is|is niet}} actief",
+        "de": "Lokale Bedienung !{{ist|ist nicht}} aktiv"
       }
     },
     {
       "id": "oven_child_lock_is_on",
       "title": {
         "en": "The child lock !{{is|is not}} on",
-        "nl": "Het kinderslot !{{is|is niet}} aan"
+        "nl": "Het kinderslot !{{is|is niet}} aan",
+        "de": "Die Kindersicherung !{{ist|ist nicht}} eingeschaltet"
       }
     },
     {
       "id": "oven_remaining_time_below",
       "title": {
         "en": "Remaining time !{{is|is not}} below ...",
-        "nl": "Resterende tijd !{{is|is niet}} minder dan ..."
+        "nl": "Resterende tijd !{{is|is niet}} minder dan ...",
+        "de": "Restzeit !{{ist|ist nicht}} unter ..."
       },
       "titleFormatted": {
         "en": "Remaining time !{{is|is not}} below [[minutes]] min",
-        "nl": "Resterende tijd !{{is|is niet}} minder dan [[minutes]] min"
+        "nl": "Resterende tijd !{{is|is niet}} minder dan [[minutes]] min",
+        "de": "Restzeit !{{ist|ist nicht}} unter [[minutes]] Min."
       },
       "args": [
         {
@@ -517,7 +589,8 @@
           "type": "number",
           "title": {
             "en": "Minutes",
-            "nl": "Minuten"
+            "nl": "Minuten",
+            "de": "Minuten"
           },
           "min": 0,
           "max": 1440,
@@ -529,11 +602,13 @@
       "id": "oven_program_progress_above",
       "title": {
         "en": "Program progress !{{is|is not}} above ...",
-        "nl": "Programmavoortgang !{{is|is niet}} hoger dan ..."
+        "nl": "Programmavoortgang !{{is|is niet}} hoger dan ...",
+        "de": "Programmfortschritt !{{ist|ist nicht}} über ..."
       },
       "titleFormatted": {
         "en": "Program progress !{{is|is not}} above [[percent]] %",
-        "nl": "Programmavoortgang !{{is|is niet}} hoger dan [[percent]] %"
+        "nl": "Programmavoortgang !{{is|is niet}} hoger dan [[percent]] %",
+        "de": "Programmfortschritt !{{ist|ist nicht}} über [[percent]] %"
       },
       "args": [
         {
@@ -541,7 +616,8 @@
           "type": "number",
           "title": {
             "en": "Percent",
-            "nl": "Percentage"
+            "nl": "Percentage",
+            "de": "Prozent"
           },
           "min": 0,
           "max": 100,
@@ -553,11 +629,13 @@
       "id": "oven_current_program_is",
       "title": {
         "en": "The active program !{{is|is not}} ...",
-        "nl": "Het actieve programma !{{is|is niet}} ..."
+        "nl": "Het actieve programma !{{is|is niet}} ...",
+        "de": "Das aktive Programm !{{ist|ist nicht}} ..."
       },
       "titleFormatted": {
         "en": "The active program !{{is|is not}} [[program]]",
-        "nl": "Het actieve programma !{{is|is niet}} [[program]]"
+        "nl": "Het actieve programma !{{is|is niet}} [[program]]",
+        "de": "Das aktive Programm !{{ist|ist nicht}} [[program]]"
       },
       "args": [
         {
@@ -565,7 +643,8 @@
           "type": "autocomplete",
           "title": {
             "en": "Program",
-            "nl": "Programma"
+            "nl": "Programma",
+            "de": "Programm"
           }
         }
       ]
@@ -574,11 +653,13 @@
       "id": "oven_selected_program_is",
       "title": {
         "en": "The selected program !{{is|is not}} ...",
-        "nl": "Het geselecteerde programma !{{is|is niet}} ..."
+        "nl": "Het geselecteerde programma !{{is|is niet}} ...",
+        "de": "Das ausgewählte Programm !{{ist|ist nicht}} ..."
       },
       "titleFormatted": {
         "en": "The selected program !{{is|is not}} [[program]]",
-        "nl": "Het geselecteerde programma !{{is|is niet}} [[program]]"
+        "nl": "Het geselecteerde programma !{{is|is niet}} [[program]]",
+        "de": "Das ausgewählte Programm !{{ist|ist nicht}} [[program]]"
       },
       "args": [
         {
@@ -586,7 +667,8 @@
           "type": "autocomplete",
           "title": {
             "en": "Program",
-            "nl": "Programma"
+            "nl": "Programma",
+            "de": "Programm"
           }
         }
       ]
@@ -595,18 +677,21 @@
       "id": "oven_meat_probe_is_plugged",
       "title": {
         "en": "Meat probe !{{is|is not}} plugged in",
-        "nl": "Vleesthermometer !{{is|is niet}} aangesloten"
+        "nl": "Vleesthermometer !{{is|is niet}} aangesloten",
+        "de": "Bratenthermometer !{{ist|ist nicht}} eingesteckt"
       }
     },
     {
       "id": "oven_cavity_temperature_above",
       "title": {
         "en": "Cavity temperature !{{is|is not}} above ...",
-        "nl": "Ovenruimte !{{is|is niet}} warmer dan ..."
+        "nl": "Ovenruimte !{{is|is niet}} warmer dan ...",
+        "de": "Garraumtemperatur !{{ist|ist nicht}} über ..."
       },
       "titleFormatted": {
         "en": "Cavity temperature !{{is|is not}} above [[celsius]] °C",
-        "nl": "Ovenruimte !{{is|is niet}} warmer dan [[celsius]] °C"
+        "nl": "Ovenruimte !{{is|is niet}} warmer dan [[celsius]] °C",
+        "de": "Garraumtemperatur !{{ist|ist nicht}} über [[celsius]] °C"
       },
       "args": [
         {
@@ -614,7 +699,8 @@
           "type": "number",
           "title": {
             "en": "°C",
-            "nl": "°C"
+            "nl": "°C",
+            "de": "°C"
           },
           "min": 0,
           "max": 300,
@@ -626,11 +712,13 @@
       "id": "oven_meat_probe_temperature_above",
       "title": {
         "en": "Meat probe temperature !{{is|is not}} above ...",
-        "nl": "Vleesthermometer !{{is|is niet}} warmer dan ..."
+        "nl": "Vleesthermometer !{{is|is niet}} warmer dan ...",
+        "de": "Bratenthermometer-Temperatur !{{ist|ist nicht}} über ..."
       },
       "titleFormatted": {
         "en": "Meat probe !{{is|is not}} above [[celsius]] °C",
-        "nl": "Vleesthermometer !{{is|is niet}} warmer dan [[celsius]] °C"
+        "nl": "Vleesthermometer !{{is|is niet}} warmer dan [[celsius]] °C",
+        "de": "Bratenthermometer !{{ist|ist nicht}} über [[celsius]] °C"
       },
       "args": [
         {
@@ -638,7 +726,8 @@
           "type": "number",
           "title": {
             "en": "°C",
-            "nl": "°C"
+            "nl": "°C",
+            "de": "°C"
           },
           "min": 0,
           "max": 110,
@@ -650,11 +739,13 @@
       "id": "oven_target_temperature_above",
       "title": {
         "en": "Target temperature !{{is|is not}} above ...",
-        "nl": "Insteltemperatuur !{{is|is niet}} hoger dan ..."
+        "nl": "Insteltemperatuur !{{is|is niet}} hoger dan ...",
+        "de": "Zieltemperatur !{{ist|ist nicht}} über ..."
       },
       "titleFormatted": {
         "en": "Target !{{is|is not}} above [[celsius]] °C",
-        "nl": "Instel !{{is|is niet}} hoger dan [[celsius]] °C"
+        "nl": "Instel !{{is|is niet}} hoger dan [[celsius]] °C",
+        "de": "Zieltemperatur !{{ist|ist nicht}} über [[celsius]] °C"
       },
       "args": [
         {
@@ -662,7 +753,8 @@
           "type": "number",
           "title": {
             "en": "°C",
-            "nl": "°C"
+            "nl": "°C",
+            "de": "°C"
           },
           "min": 30,
           "max": 300,
@@ -674,14 +766,16 @@
       "id": "oven_fast_preheat_is_on",
       "title": {
         "en": "Fast preheat !{{is|is not}} on",
-        "nl": "Snelvoorverwarmen !{{is|is niet}} aan"
+        "nl": "Snelvoorverwarmen !{{is|is niet}} aan",
+        "de": "Schnellaufheizen !{{ist|ist nicht}} eingeschaltet"
       }
     },
     {
       "id": "oven_cavity_light_is_on",
       "title": {
         "en": "Oven light !{{is|is not}} on",
-        "nl": "Ovenverlichting !{{is|is niet}} aan"
+        "nl": "Ovenverlichting !{{is|is niet}} aan",
+        "de": "Backofenbeleuchtung !{{ist|ist nicht}} eingeschaltet"
       }
     }
   ],
@@ -690,15 +784,18 @@
       "id": "oven_start_program",
       "title": {
         "en": "Start a program",
-        "nl": "Start een programma"
+        "nl": "Start een programma",
+        "de": "Programm starten"
       },
       "titleFormatted": {
         "en": "Start [[program]] at [[temperature]] °C for [[duration]] min",
-        "nl": "Start [[program]] op [[temperature]] °C voor [[duration]] min"
+        "nl": "Start [[program]] op [[temperature]] °C voor [[duration]] min",
+        "de": "[[program]] bei [[temperature]] °C für [[duration]] Min. starten"
       },
       "hint": {
         "en": "Requires remote start to be enabled on the oven first.",
-        "nl": "Vereist dat op afstand starten eerst op de oven is ingeschakeld."
+        "nl": "Vereist dat op afstand starten eerst op de oven is ingeschakeld.",
+        "de": "Erfordert, dass Fernstart zuerst am Backofen aktiviert ist."
       },
       "args": [
         {
@@ -706,7 +803,8 @@
           "type": "autocomplete",
           "title": {
             "en": "Program",
-            "nl": "Programma"
+            "nl": "Programma",
+            "de": "Programm"
           }
         },
         {
@@ -714,7 +812,8 @@
           "type": "number",
           "title": {
             "en": "Temperature (°C)",
-            "nl": "Temperatuur (°C)"
+            "nl": "Temperatuur (°C)",
+            "de": "Temperatur (°C)"
           },
           "min": 30,
           "max": 300,
@@ -725,7 +824,8 @@
           "type": "number",
           "title": {
             "en": "Duration (minutes)",
-            "nl": "Duur (minuten)"
+            "nl": "Duur (minuten)",
+            "de": "Dauer (Minuten)"
           },
           "min": 1,
           "max": 1440,
@@ -737,15 +837,18 @@
       "id": "oven_select_program",
       "title": {
         "en": "Select a program",
-        "nl": "Selecteer een programma"
+        "nl": "Selecteer een programma",
+        "de": "Programm auswählen"
       },
       "titleFormatted": {
         "en": "Select [[program]]",
-        "nl": "Selecteer [[program]]"
+        "nl": "Selecteer [[program]]",
+        "de": "[[program]] auswählen"
       },
       "hint": {
         "en": "Queues the program without starting it.",
-        "nl": "Selecteert het programma zonder het te starten."
+        "nl": "Selecteert het programma zonder het te starten.",
+        "de": "Wählt das Programm aus, ohne es zu starten."
       },
       "args": [
         {
@@ -753,7 +856,8 @@
           "type": "autocomplete",
           "title": {
             "en": "Program",
-            "nl": "Programma"
+            "nl": "Programma",
+            "de": "Programm"
           }
         }
       ]
@@ -762,11 +866,13 @@
       "id": "oven_start_program_delayed",
       "title": {
         "en": "Start a program with a delay",
-        "nl": "Start een programma met uitstel"
+        "nl": "Start een programma met uitstel",
+        "de": "Programm mit Verzögerung starten"
       },
       "titleFormatted": {
         "en": "Start [[program]] in [[delay_minutes]] min",
-        "nl": "Start [[program]] over [[delay_minutes]] min"
+        "nl": "Start [[program]] over [[delay_minutes]] min",
+        "de": "[[program]] in [[delay_minutes]] Min. starten"
       },
       "args": [
         {
@@ -774,7 +880,8 @@
           "type": "autocomplete",
           "title": {
             "en": "Program",
-            "nl": "Programma"
+            "nl": "Programma",
+            "de": "Programm"
           }
         },
         {
@@ -782,7 +889,8 @@
           "type": "number",
           "title": {
             "en": "Delay (min)",
-            "nl": "Uitstel (min)"
+            "nl": "Uitstel (min)",
+            "de": "Verzögerung (Min.)"
           },
           "min": 1,
           "max": 1440,
@@ -794,32 +902,37 @@
       "id": "oven_stop_program",
       "title": {
         "en": "Stop the program",
-        "nl": "Stop het programma"
+        "nl": "Stop het programma",
+        "de": "Programm stoppen"
       }
     },
     {
       "id": "oven_pause_program",
       "title": {
         "en": "Pause the program",
-        "nl": "Pauzeer het programma"
+        "nl": "Pauzeer het programma",
+        "de": "Programm pausieren"
       }
     },
     {
       "id": "oven_resume_program",
       "title": {
         "en": "Resume the program",
-        "nl": "Hervat het programma"
+        "nl": "Hervat het programma",
+        "de": "Programm fortsetzen"
       }
     },
     {
       "id": "oven_set_child_lock",
       "title": {
         "en": "Set child lock",
-        "nl": "Zet kinderslot"
+        "nl": "Zet kinderslot",
+        "de": "Kindersicherung setzen"
       },
       "titleFormatted": {
         "en": "Set child lock to [[enabled]]",
-        "nl": "Zet kinderslot op [[enabled]]"
+        "nl": "Zet kinderslot op [[enabled]]",
+        "de": "Kindersicherung auf [[enabled]] setzen"
       },
       "args": [
         {
@@ -827,7 +940,8 @@
           "type": "checkbox",
           "title": {
             "en": "Enabled",
-            "nl": "Ingeschakeld"
+            "nl": "Ingeschakeld",
+            "de": "Aktiviert"
           }
         }
       ]
@@ -836,29 +950,34 @@
       "id": "oven_acknowledge_event",
       "title": {
         "en": "Acknowledge event",
-        "nl": "Bevestig melding"
+        "nl": "Bevestig melding",
+        "de": "Meldung bestätigen"
       },
       "hint": {
         "en": "Clears whatever event is currently signalled on the appliance.",
-        "nl": "Wist de melding die op het apparaat actief is."
+        "nl": "Wist de melding die op het apparaat actief is.",
+        "de": "Löscht die aktuell am Gerät angezeigte Meldung."
       }
     },
     {
       "id": "oven_power_off",
       "title": {
         "en": "Turn off (standby)",
-        "nl": "Uitschakelen (stand-by)"
+        "nl": "Uitschakelen (stand-by)",
+        "de": "Ausschalten (Standby)"
       }
     },
     {
       "id": "oven_set_target_temperature",
       "title": {
         "en": "Set target temperature",
-        "nl": "Stel insteltemperatuur in"
+        "nl": "Stel insteltemperatuur in",
+        "de": "Zieltemperatur einstellen"
       },
       "titleFormatted": {
         "en": "Set target to [[celsius]] °C",
-        "nl": "Stel instel in op [[celsius]] °C"
+        "nl": "Stel instel in op [[celsius]] °C",
+        "de": "Ziel auf [[celsius]] °C einstellen"
       },
       "args": [
         {
@@ -866,7 +985,8 @@
           "type": "number",
           "title": {
             "en": "°C",
-            "nl": "°C"
+            "nl": "°C",
+            "de": "°C"
           },
           "min": 30,
           "max": 300,
@@ -878,11 +998,13 @@
       "id": "oven_set_meat_probe_target",
       "title": {
         "en": "Set meat probe target",
-        "nl": "Stel vleesthermometer-streefwaarde in"
+        "nl": "Stel vleesthermometer-streefwaarde in",
+        "de": "Ziel des Bratenthermometers einstellen"
       },
       "titleFormatted": {
         "en": "Meat probe target [[celsius]] °C",
-        "nl": "Vleesthermometer streef [[celsius]] °C"
+        "nl": "Vleesthermometer streef [[celsius]] °C",
+        "de": "Bratenthermometer-Ziel [[celsius]] °C"
       },
       "args": [
         {
@@ -890,7 +1012,8 @@
           "type": "number",
           "title": {
             "en": "°C",
-            "nl": "°C"
+            "nl": "°C",
+            "de": "°C"
           },
           "min": 0,
           "max": 99,
@@ -902,11 +1025,13 @@
       "id": "oven_set_alarm_clock",
       "title": {
         "en": "Set kitchen timer",
-        "nl": "Stel kookwekker in"
+        "nl": "Stel kookwekker in",
+        "de": "Kurzzeitwecker stellen"
       },
       "titleFormatted": {
         "en": "Kitchen timer [[minutes]] min",
-        "nl": "Kookwekker [[minutes]] min"
+        "nl": "Kookwekker [[minutes]] min",
+        "de": "Kurzzeitwecker [[minutes]] Min."
       },
       "args": [
         {
@@ -914,7 +1039,8 @@
           "type": "number",
           "title": {
             "en": "Minutes",
-            "nl": "Minuten"
+            "nl": "Minuten",
+            "de": "Minuten"
           },
           "min": 0,
           "max": 1440,
@@ -926,11 +1052,13 @@
       "id": "oven_set_cavity_light",
       "title": {
         "en": "Set oven light",
-        "nl": "Zet ovenverlichting"
+        "nl": "Zet ovenverlichting",
+        "de": "Backofenbeleuchtung setzen"
       },
       "titleFormatted": {
         "en": "Light [[enabled]]",
-        "nl": "Verlichting [[enabled]]"
+        "nl": "Verlichting [[enabled]]",
+        "de": "Beleuchtung [[enabled]]"
       },
       "args": [
         {
@@ -938,7 +1066,8 @@
           "type": "checkbox",
           "title": {
             "en": "Enabled",
-            "nl": "Aan"
+            "nl": "Aan",
+            "de": "Aktiviert"
           }
         }
       ]
@@ -947,11 +1076,13 @@
       "id": "oven_set_fast_preheat",
       "title": {
         "en": "Set fast preheat",
-        "nl": "Zet snelvoorverwarmen"
+        "nl": "Zet snelvoorverwarmen",
+        "de": "Schnellaufheizen setzen"
       },
       "titleFormatted": {
         "en": "Fast preheat [[enabled]]",
-        "nl": "Snelvoorverwarmen [[enabled]]"
+        "nl": "Snelvoorverwarmen [[enabled]]",
+        "de": "Schnellaufheizen [[enabled]]"
       },
       "args": [
         {
@@ -959,7 +1090,8 @@
           "type": "checkbox",
           "title": {
             "en": "Enabled",
-            "nl": "Aan"
+            "nl": "Aan",
+            "de": "Aktiviert"
           }
         }
       ]
