@@ -221,6 +221,7 @@ const OVEN_CAPS = [
   "homeconnect_signal_duration",
   "homeconnect_microwave_power",
   "homeconnect_oven_program_name",
+  "homeconnect_oven_target_temperature",
   "homeconnect_interior_light_active",
   "homeconnect_oven_temp_too_high",
   "homeconnect_software_update_available",

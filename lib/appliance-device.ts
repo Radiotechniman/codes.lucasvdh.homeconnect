@@ -279,9 +279,11 @@ const CAPABILITY_MAP: Record<string, CapabilityMapEntry> = {
     capability: "measure_temperature",
     decode: decodeNumber,
   },
-  // Cooking.Oven.Option.SetpointTemperature is intentionally not a capability:
-  // the Homey thermostat UI doesn't match oven semantics (setpoint is only
-  // meaningful while a program is selected). Exposed as a Flow action instead
+  "Cooking.Oven.Option.SetpointTemperature": {
+    capability: "homeconnect_oven_target_temperature",
+    decode: decodeNumber,
+  },
+  // Cooking.Oven.Option.SetpointTemperature is also exposed as a Flow action instead
   // - see drivers/oven/driver.ts → oven_set_target_temperature.
   "Cooking.Oven.Status.Cavity.001.MeatprobePlugged": {
     capability: "homeconnect_meat_probe_plugged",
@@ -949,6 +951,7 @@ export class ApplianceDevice extends Homey.Device {
     if (state !== "Finished") {
       clear("homeconnect_program", null);
       clear("homeconnect_oven_program_name", null);
+      clear("homeconnect_oven_target_temperature", null);
     }
   }
 
